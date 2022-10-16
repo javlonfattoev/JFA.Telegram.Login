@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Service for Telegram login widget</Title>
+    <Version>1.0.0</Version>
+    <Company>Javlon Fattoev</Company>
+    <Description> Service for Telegram login widget</Description>
+    <PackageProjectUrl>www.fattoev.uz</PackageProjectUrl>
+    <PackageIcon>JFA.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/javlonfattoev/JFA.Telegram.Login</RepositoryUrl>
+    <PackageTags>telegram, auth, login</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\JFA.Database.Sqlite\JFA.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot.Extensions.LoginWidget" Version="1.2.0" />
+  </ItemGroup>
+</Project>

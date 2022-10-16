@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JFA.Telegram.LoginWidget", "JFA.Telegram.LoginWidget\JFA.Telegram.LoginWidget.csproj", "{64DA0029-CD7E-499A-83AA-B442A16C2645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JFA.Telegram.Login", "JFA.Telegram.Login\JFA.Telegram.Login.csproj", "{FFD9C65A-9A5B-4B05-8860-457BE4ECBB0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64DA0029-CD7E-499A-83AA-B442A16C2645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DA0029-CD7E-499A-83AA-B442A16C2645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DA0029-CD7E-499A-83AA-B442A16C2645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DA0029-CD7E-499A-83AA-B442A16C2645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD9C65A-9A5B-4B05-8860-457BE4ECBB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD9C65A-9A5B-4B05-8860-457BE4ECBB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD9C65A-9A5B-4B05-8860-457BE4ECBB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD9C65A-9A5B-4B05-8860-457BE4ECBB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC1F861-3FDC-4ABA-9587-4AF6E5F7DAB4}
+	EndGlobalSection
+EndGlobal
