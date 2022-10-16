@@ -40,3 +40,12 @@ builder.Services.Configure<TelegramOption>(builder.Configuration.GetSection(name
 - Create a bot or use an existing one from @BotFather
 - Link your website's domain to the bot
 - Generate embed code. https://core.telegram.org/widgets/login
+    #
+    >4.1 Embed Code
+    ```HTML
+    <script async src="https://telegram.org/js/telegram-widget.js?21"
+        data-telegram-login="<BOT_USERNAME>" data-size="large"
+        data-radius="5" data-auth-url="<REDIRECT_URL>"
+        data-request-access="write">
+    </script>
+    ```
